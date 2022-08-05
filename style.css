@@ -1,0 +1,116 @@
+/* UTILITIES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  background: rgb(188, 189, 145);
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/* body {
+  margin: 0;
+  padding: 0;
+  background: rgb(206, 206, 168);
+}
+
+.nav {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.nav-list {
+  position: fixed;
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 0px;
+  /* Work-around for removing automatically generated whitespace text nodes*/
+/* font-size: 0px;
+} */
+
+/* .list-item {
+  display: inline-block;
+  background: rgb(68, 69, 43);
+}
+
+.nav-link {
+  display: block;
+  font-size: 16px;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: var(--grey2);
+  background: rgb(157, 159, 100);
+} */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+}
+.nav-links {
+  padding-top: 15px;
+}
+.nav-links a {
+  color: #fff;
+}
+/* LOGO */
+.logo {
+  font-size: 32px;
+  color: white;
+}
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+.menu li:hover {
+  /* background-color: #4c9e9e; */
+  background: rgb(157, 159, 100);
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.menu li {
+  padding: 5px 5px;
+}
+
+section {
+  background: rgb(188, 189, 145);
+  padding-top: 100px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  background: rgb(157, 159, 100);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.flex-item {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#portrait {
+  border-radius: 10%;
+}
