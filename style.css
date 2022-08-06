@@ -114,3 +114,7 @@ section {
 #portrait {
   border-radius: 10%;
 }
+
+.bg-light {
+  background: rgb(157, 159, 100) !important;
+}
