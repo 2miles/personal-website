@@ -1,3 +1,7 @@
-var div = document.getElementById("content");
-div.style.left = "100px";
-div.style.top = "100px";
+var docWidth = document.documentElement.offsetWidth;
+
+[].forEach.call(document.querySelectorAll("*"), function (el) {
+  if (el.offsetWidth > docWidth) {
+    console.log(el);
+  }
+});
