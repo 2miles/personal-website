@@ -9,12 +9,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="../style.css"
-    />
-    <script src="../main.js"></script> 
-
+    <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
     <main>
@@ -53,176 +48,240 @@
             </ul>
         </nav> -->
         <div id="content">
-          <section  id="about">
+          <section id="about">
             <div class="section-title">
-                <h2>About Me</h2>
+              <h2>About Me</h2>
             </div>
             <div class="section-content flex-container">
               <img
-                  id="portrait"
-                  src="../images/my_portrait.png"
-                  alt="headshot of Miles in front of a white brick wall"
-                  width="300"
-                  height="300"
-                  class="flex-item"
+                id="portrait"
+                src="../images/my_portrait.png"
+                alt="headshot of Miles in front of a white brick wall"
+                width="300"
+                height="300"
+                class="flex-item"
               />
               <div class="flex-item" id="intro-text">
-                  <!-- Hello, my name is Miles Whitaker. I'm currently attending PSU as a
+                <!-- Hello, my name is Miles Whitaker. I'm currently attending PSU as a
                   postbac student with a mathematics degree. I'm now working towards
                   another bachelors in computer science. To pay the bills I'm a line
                   cook. For fun I like to make art and go on long bicycle rides. -->
 
-                  <!-- I was born and raised in Portland Oregon. 
+                <!-- I was born and raised in Portland Oregon. 
                   After over a decade of cooking as my source of income I wanted a more intellectually stimulating career and not just a job. 
                   I've always loved building and analyzing things and since childhood I've had an intense passion for learning, specifically math and science.  -->
 
-                  <p>
-                  My name is Miles Whitaker. 
-                  After recently acquiring a bachelors of science in mathematics from PSU I realized I wanted a career in software development or data science. 
-                  I felt like computer science in general was the perfect blend of building tangible things while also utilizing the theoretical and analytical abilities I gained from my experience with mathematics. 
-                  Instead of strictly self-learning, I continued attending PSU in order to get a computer science degree. 
-                  </p>
-                  <p>
-                  Although I currently have no professional experience in software, through the CS curriculum at PSU I became quite proficient in C++ data structures, OOP, and recursive algorithms. 
-                  Meanwhile in my free time I learned the basics of Python and some of its libraries by making small projects like games and websites. 
-                  The websites I built using the Django web framework for the front-end and PostgreSQL for the database.
-                  </p>
+                <p>
+                  My name is Miles Whitaker. After recently acquiring a
+                  bachelors of science in mathematics from PSU I realized I
+                  wanted a career in software development or data science. I
+                  felt like computer science in general was the perfect blend of
+                  building tangible things while also utilizing the theoretical
+                  and analytical abilities I gained from my experience with
+                  mathematics. Instead of strictly self-learning, I continued
+                  attending PSU in order to get a computer science degree.
+                </p>
+                <p>
+                  Although I currently have no professional experience in
+                  software, through the CS curriculum at PSU I became quite
+                  proficient in C++ data structures, OOP, and recursive
+                  algorithms. Meanwhile in my free time I learned the basics of
+                  Python and some of its libraries by making small projects like
+                  games and websites. The websites I built using the Django web
+                  framework for the front-end and PostgreSQL for the database.
+                </p>
               </div>
             </div>
           </section>
           <section id="skills">
-              <div class="section-title">
-                  <h2>Skills</h2>
-              </div>
-              <div class="section-content flex-container">
-                <div class="flex-item" id="languages">
-                  <h3>Languages</h3>
-                  <ul>
-                    <li>C++</li>
-                    <li>Python</li>
-                    <li>SQL</li>
-                    <li>HTML/CSS</li>
-                  </ul>
-                </div>
-                <div class="flex-item" id="tools">
-                  <h3>Tools</h3>
-                  <ul>
-                    <li>Git</li>
-                    <li>Vim</li>
-                    <li>Bash</li>
-                    <li>VS Code</li>
-                  </ul>
-                </div>
-                <div class="flex-item" id="experience">
-                  <h3>Experience</h3>
-                  <ul>
-                    <li>Mathematics</li>
-                    <li>Data structures</li>
-                    <li>OOP</li>
-                    <li>Recursive algorithms</li>
-                  </ul>
-                    </div>
-
-
-          </section>
-          <section id="projects">
             <div class="section-title">
-                  <h2>Projects</h2>
+              <h2>Skills</h2>
             </div>
             <div class="section-content flex-container">
+              <div class="flex-item" id="languages">
+                <h3>Languages</h3>
+                <ul>
+                  <li>C++</li>
+                  <li>Python</li>
+                  <li>SQL</li>
+                  <li>HTML/CSS</li>
+                </ul>
+              </div>
+              <div class="flex-item" id="tools">
+                <h3>Tools</h3>
+                <ul>
+                  <li>Git</li>
+                  <li>Vim</li>
+                  <li>Bash</li>
+                  <li>VS Code</li>
+                </ul>
+              </div>
+              <div class="flex-item" id="experience">
+                <h3>Experience</h3>
+                <ul>
+                  <li>Mathematics</li>
+                  <li>Data structures</li>
+                  <li>OOP</li>
+                  <li>Recursive algorithms</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section class="slider-wrapper" id="projects">
+            <div class="section-title">
+              <h2>Projects</h2>
+            </div>
+            <div class="projects-small">
+              <div class="section-content flex-container">
                 <div class="project-content">
                   <div class="flex-item">
                     <h3>Minesweeper Clone</h3>
                     <p>
-                      Minsweeper clone written in Python using the Pygame library. Spritesheets
-                      created by hand using Piskelapp.com. Choose from
-                      Beginner, Intermediate, and hard difficulty setitngs. 
+                      Minsweeper clone written in Python using the Pygame
+                      library. Spritesheets created by hand using Piskelapp.com.
+                      Choose from Beginner, Intermediate, and hard difficulty
+                      setitngs.
                     </p>
-                    <img
-                    id="minesweeper_img"
-                    src="../images/minesweeper_screenshot_3.png"
-                    alt="screenshot of minsweeper game project"
-                    width="400"
-                    height="450"
-                    class="flex-item"
-                    />
                   </div>
-  
                   <div class="flex-item">
                     <h3>Sorting Algorithm Visualizer</h3>
                     <p>
-                      Choose from a list of sorting algorithms and watch that algorithm sort an 
-                      array of random length bars from smallest to largest. Created using Python 
-                      and the Pygame library.
+                      Choose from a list of sorting algorithms and watch that
+                      algorithm sort an array of random length bars from
+                      smallest to largest. Created using Python and the Pygame
+                      library.
                     </p>
-                    <img
-                    id="minesweeper_img"
-                    src="../images/sorting_visualizer_screenshot.png"
-                    alt="screenshot of sorting algorithm visualizer project"
-                    width="400"
-                    height="300"
-                    class="flex-item"
-                    />
                   </div>
-  
                   <div class="flex-item">
                     <h3>Weather App</h3>
                     <p>
-                      Simple CRUD webpage that allows a user to view the weather at different location 
-                      searching and adding to their list of locations. Allows for multiple users. 
-                      Implements user regestration and login. Written using Django web framework with
-                      a postgreSQL database.
+                      Simple CRUD webpage that allows a user to view the weather
+                      at different location searching and adding to their list
+                      of locations. Allows for multiple users. Implements user
+                      regestration and login. Written using Django web framework
+                      with a postgreSQL database.
                     </p>
-                    <img
-                    id="minesweeper_img"
-                    src="../images/weather_app_screenshot.png"
-                    alt="screenshot of weather app project"
-                    width="400"
-                    height="350"
-                    class="flex-item"
-                    />
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="projects-large">
+              <button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
+
+              <button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
+
+              <ul class="slides-container" id="slides-container">
+                <li class="slide">
+                  <div class="flex-item">
+                    <h3>Minesweeper Clone</h3>
+                    <p>
+                      Minsweeper clone written in Python using the Pygame
+                      library. Spritesheets created by hand using Piskelapp.com.
+                      Choose from Beginner, Intermediate, and hard difficulty
+                      setitngs.
+                    </p>
+                    <img
+                      id="minesweeper_img"
+                      src="../images/minesweeper_screenshot_3.png"
+                      alt="screenshot of minsweeper game project"
+                      width="400"
+                      height="450"
+                      class="flex-item"
+                    />
+                  </div>
+                </li>
+                <li class="slide">
+                  <div class="flex-item">
+                    <h3>Sorting Algorithm Visualizer</h3>
+                    <p>
+                      Choose from a list of sorting algorithms and watch that
+                      algorithm sort an array of random length bars from
+                      smallest to largest. Created using Python and the Pygame
+                      library.
+                    </p>
+                    <img
+                      id="minesweeper_img"
+                      src="../images/sorting_visualizer_screenshot.png"
+                      alt="screenshot of sorting algorithm visualizer project"
+                      width="400"
+                      height="300"
+                      class="flex-item"
+                    />
+                  </div>
+                </li>
+                <li class="slide">
+                  <div class="flex-item">
+                    <h3>Weather App</h3>
+                    <p>
+                      Simple CRUD webpage that allows a user to view the weather
+                      at different location searching and adding to their list
+                      of locations. Allows for multiple users. Implements user
+                      regestration and login. Written using Django web framework
+                      with a postgreSQL database.
+                    </p>
+                    <img
+                      id="minesweeper_img"
+                      src="../images/weather_app_screenshot.png"
+                      alt="screenshot of weather app project"
+                      width="400"
+                      height="350"
+                      class="flex-item"
+                    />
+                  </div>
+                </li>
+              </ul>
+            </div>
           </section>
+
           <section id="contact">
-              <div class="section-title">
-                  <h2>Contact Me</h2>
+            <div class="section-title">
+              <h2>Contact Me</h2>
+            </div>
+            <form class="bg-light border rounded p-3">
+              <div class="form-group row my-3">
+                <div class="col-md-2">
+                  <label for="name">Name: </label>
+                </div>
+                <div class="col-md-10">
+                  <input type="name" class="form-control" id="name" />
+                </div>
               </div>
-              <form class="bg-light border rounded p-3">
-                  <div class="form-group row my-3">
-                    <div class="col-md-2">
-                      <label for="name">Name: </label>
-                    </div>
-                    <div class="col-md-10">
-                      <input type="name" class="form-control" id="name" />
-                    </div>
-                  </div>
-                  <div class="form-group row my-3">
-                    <div class="col-md-2">
-                      <label for="email">Email: </label>
-                    </div>
-                    <div class="col-md-10">
-                      <input type="email" class="form-control" id="email" />
-                    </div>
-                  </div>
-                  <div class="form-group row my-3">
-                    <div class="col-md-2">
-                      <label for="message">Message: </label>
-                    </div>
-                    <div class="col-md-10">
-                      <textarea class="form-control" id="message" rows="3"></textarea>
-                    </div>
-                  </div>
-                  <div class="form-group row mx-auto mt-4">
-                    <div class="col-6 p-1 mx-auto">
-                      <input type="submit" class="btn btn-dark w-100" value="Send" />
-                    </div>
-                  </div>
-              </form>
+              <div class="form-group row my-3">
+                <div class="col-md-2">
+                  <label for="email">Email: </label>
+                </div>
+                <div class="col-md-10">
+                  <input type="email" class="form-control" id="email" />
+                </div>
+              </div>
+              <div class="form-group row my-3">
+                <div class="col-md-2">
+                  <label for="message">Message: </label>
+                </div>
+                <div class="col-md-10">
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="3"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="form-group row mx-auto mt-4">
+                <div class="col-6 p-1 mx-auto">
+                  <input
+                    type="submit"
+                    class="btn btn-dark w-100"
+                    value="Send"
+                  />
+                </div>
+              </div>
+            </form>
           </section>
         </div>
       </div>
     </main>
+
+    <script src="../main.js"></script>
   </body>
 </html>
