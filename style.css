@@ -1,3 +1,4 @@
+/* GENERAL */
 * {
   margin: 0;
   padding: 0;
@@ -13,19 +14,36 @@ a {
 li {
   list-style: none;
 }
-
-@media (max-width: 500) {
-  #about .flex-container {
-    flex-direction: column;
-  }
-}
-
 @media (min-width: 1000px) {
   .container {
     max-width: 1000px;
   }
 }
+section {
+  background: rgb(224, 224, 214);
+  padding-top: 100px;
+}
 
+.flex-container {
+  display: flex;
+  align-items: center;
+  background: rgb(224, 224, 214);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.flex-item {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.section-title {
+  border-bottom: 3px solid black;
+}
+
+.section-title h2 {
+  font-weight: bold;
+}
+/************** NAVBAR ***************/
 .navbar {
   position: fixed;
   top: 0;
@@ -41,7 +59,6 @@ li {
   padding-right: 20px;
   color: #fff;
 }
-
 .nav-links {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -55,19 +72,24 @@ li {
   width: 100%;
   display: inline-block;
 }
-/* LOGO */
 .logo {
   font-size: 32px;
   color: white;
 }
-
 .menu {
   display: flex;
   justify-content: flex-end;
   gap: 1em;
   font-size: 18px;
 }
-
+.menu li:hover {
+  background: rgb(49, 49, 43);
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.menu li {
+  padding: 5px 5px;
+}
 @media (max-width: 580px) {
   .navbar {
     position: absolute;
@@ -83,41 +105,8 @@ li {
     width: 100%;
   }
 }
-.menu li:hover {
-  /* background-color: #4c9e9e; */
-  background: rgb(49, 49, 43);
-  border-radius: 5px;
-  transition: 0.3s ease;
-}
-.menu li {
-  padding: 5px 5px;
-}
 
-section {
-  background: rgb(224, 224, 214);
-  padding-top: 100px;
-}
-#contact {
-  padding-bottom: 50px;
-}
-
-.flex-container {
-  display: flex;
-  align-items: center;
-  background: rgb(224, 224, 214);
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-#projects .flex-container {
-  flex-direction: column;
-}
-
-.flex-item {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
+/************** ABOUT *****************/
 @media (max-width: 1000px) {
   #about .flex-container {
     flex-direction: column;
@@ -126,23 +115,15 @@ section {
     margin-bottom: 20px;
   }
 }
-@media (max-width: 500px) {
-  #skills .flex-container {
+@media (max-width: 500) {
+  #about .flex-container {
     flex-direction: column;
   }
 }
-
-@media (max-width: 580px) {
-  .projects-large {
-    display: none;
-  }
+#portrait {
+  border-radius: 10%;
 }
-@media (min-width: 580px) {
-  .projects-small {
-    display: none;
-  }
-}
-
+/************** SKILLS *****************/
 #skills .flex-container {
   justify-content: space-around;
 }
@@ -150,13 +131,22 @@ section {
   padding-left: 0px;
 }
 
-#portrait {
-  border-radius: 10%;
+@media (max-width: 500px) {
+  #skills .flex-container {
+    flex-direction: column;
+  }
+}
+
+/************** PROJECTS *****************/
+#projects .flex-container {
+  flex-direction: column;
+}
+#projects .section-title {
+  margin-bottom: 30px;
 }
 .project-content {
   width: 100%;
 }
-
 .project-content img {
   display: block;
   margin-left: auto;
@@ -168,28 +158,17 @@ section {
   border-radius: 10px;
   background: rgb(238, 238, 232);
 }
-
-.bg-light {
-  background: rgb(224, 224, 214) !important;
+@media (max-width: 580px) {
+  .projects-large {
+    display: none;
+  }
 }
-
-/* footer {
-  bottom: 0;
-  width: 100%;
-  height: 50px; 
-  background: black;
-  color: white;
-} 
-*/
-.section-title {
-  border-bottom: 3px solid black;
+@media (min-width: 580px) {
+  .projects-small {
+    display: none;
+  }
 }
-#projects .section-title {
-  margin-bottom: 30px;
-}
-.section-title h2 {
-  font-weight: bold;
-}
+/************** CAROUSAL *****************/
 .slider-wrapper {
   margin: 1rem;
   position: relative;
@@ -246,10 +225,9 @@ section {
 }
 
 .slides-container {
-  scrollbar-width: none; /* Firefox */
+  scrollbar-width: none;
 }
 
-/* WebKit */
 .slides-container::-webkit-scrollbar {
   width: 0;
   height: 0;
@@ -267,6 +245,13 @@ section {
   margin-right: auto;
 }
 
+/***************** CONTACT *****************/
 #contact {
   padding-top: 50px;
+}
+#contact {
+  padding-bottom: 50px;
+}
+.bg-light {
+  background: rgb(224, 224, 214) !important;
 }
