@@ -134,9 +134,9 @@ section {
 @media (max-width: 500px) {
   #skills .flex-container {
     flex-direction: column;
+    align-items: flex-start;
   }
 }
-
 /************** PROJECTS *****************/
 #projects .flex-container {
   flex-direction: column;
@@ -269,4 +269,23 @@ section {
 }
 .bg-light {
   background: rgb(224, 224, 214) !important;
+}
+
+/***************** FOOTER *****************/
+footer {
+  width: 100%;
+  background: rgb(238, 238, 232);
+  border-top: 1px solid black;
+}
+footer .content {
+  height: 50px;
+}
+footer .my_github {
+  float: right;
+  padding-right: 10px;
+}
+footer .my_email {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
