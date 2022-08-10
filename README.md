@@ -8,6 +8,14 @@ The purpose of this project is to gain hands on experience using HTML, CSS, and 
 
 ## How to run
 
+Clone the project and open `index.html` in a web browser.
+
+- **Note**: as of right now to view the CSS and images on your localhost all the links of the form ` /personal-website/style.css` need to be changed to the form ` ../style.css`
+
 ## Sources used
 
+[how to build a simple carousel with javascript](https://webdesign.tutsplus.com/tutorials/how-to-build-a-simple-carousel-with-vanilla-javascript--cms-41734)
+
 ## Deployed
+
+https://2miles.github.io/personal-website/
