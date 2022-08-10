@@ -168,6 +168,21 @@ section {
     display: none;
   }
 }
+
+#projects h3 a {
+  color: black;
+  background: white;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+#projects h3 a:hover {
+  background: rgb(224, 224, 214);
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
 /************** CAROUSAL *****************/
 .slider-wrapper {
   margin: 1rem;
