@@ -10,7 +10,7 @@ The purpose of this project is to gain hands on experience using HTML, CSS, and 
 
 Clone the project and open `index.html` in a web browser.
 
-- **Note**: as of right now to view the CSS and images on your localhost all the links of the form ` /personal-website/style.css` need to be changed to the form ` ../style.css`
+- **Note**: as of right now to view the CSS, JS, and images on your localhost all the links of the form ` /personal-website/style.css` need to be changed to the form ` ../style.css`
 
 ## Sources used
 
